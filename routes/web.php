@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/anime', function () {
-    return view('anime');
+Route::get('/', function () {
+    return view('welcome');
 });
